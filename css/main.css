@@ -8,7 +8,6 @@
     background-color: midnightblue;
     width: 100%;
     height: 100%;
-
 }
 
 .header {
@@ -31,3 +30,25 @@
     font-size: 22px;
 }
 
+.Card {
+    grid-column: 2;
+    grid-row: 3 / span -3;
+    background-color: palegoldenrod;
+
+}
+
+.CardTitle {
+    grid-column: 2;
+    grid-row: 3;
+    color: red;
+    font-size: 48px;
+    text-align: center;
+
+}
+
+.CardParagraph {
+    grid-column: 2;
+    grid-row: 3;
+    background-color: palegoldenrod;
+
+}
